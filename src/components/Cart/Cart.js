@@ -21,7 +21,8 @@ export default class Cart extends Component {
         <Title name="your" title="cart" />
         <CartColumns />
         <CartList value={value}/>
-        <CartTotal value={value}/>
+        <CartTotal value={value} history=
+        {this.props.history}/>
 
         </React.Fragment>
       );
