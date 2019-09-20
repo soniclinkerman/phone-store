@@ -136,7 +136,7 @@ class ProductProvider extends Component {
     this.setState(() => {
       return{
         cart:[...tempCart],
-        products:[tempProducts]
+        products:[...tempProducts]
       }
     },()=>{
       this.addTotals();
